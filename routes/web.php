@@ -1,8 +1,9 @@
 <?php
 
+use App\Http\Controllers\Pages\HomePageController;
 use Illuminate\Support\Facades\Route;
 
-Route::view('/', 'pages.construction');
+Route::get('/', [HomePageController::class, 'index'])->name('home');
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
