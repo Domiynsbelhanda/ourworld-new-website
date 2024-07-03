@@ -16,7 +16,7 @@
                         <a href="{{route('home')}}">Accueil</a>
                     </li>
                     <li><a href="#">A Propos</a></li>
-                    <li><a href="#">Nos Services</a></li>
+                    <li><a href="#servicess">Nos Services</a></li>
                     <li><a href="#">Nos Projets</a></li>
                     <li><a href="#">Notre Equipe</a></li>
                     <!-- standard drop down -->
