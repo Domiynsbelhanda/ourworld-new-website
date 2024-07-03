@@ -50,6 +50,17 @@
         <div class="loader">Chargement en cours...</div>
     </div>
 
+    <div id="topbar" class="clearfix">
+        <div class="container">
+            <div class="text-center">
+                <h2>
+                    <i class="fa fa-warning" style="color: red"></i>
+                    Notre site web est en cours de construction !
+                </h2>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end topbar -->
+
     @include('partials._header')
 
     @yield('content')
@@ -102,7 +113,7 @@
                 "loop": true, 			//Loop when it reaches the end
                 "autoplay": true,		//Autoplay at start
                 "muted": true,			//Muted at start
-                "youtube": "hT6eSm-UhiM",	//Youtube video id
+                "youtube": "PBIq6E-BJbI",	//Youtube video id
                 "start": 5,					//Start with 6 seconds offset (to pass the introduction in this case for example)
                 "video_ratio": 1.7778, 		// width/height -> If none provided sizing of the video is set to adjust
                 "fallback_image": "videos/main.jpg",	//Fallback image path

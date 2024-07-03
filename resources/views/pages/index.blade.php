@@ -168,7 +168,8 @@
                     <mark class="rotate"> Votre Image, Des Compétences, Votre Visibilité, Votre Carrière</mark>
                     avec des possibilités infinies
                 </h2>
-                <p class="lead">Nous sommes Our World TKPL et nous créons des choses vraiment belles et étonnantes. Profitez
+                <p class="lead">Nous sommes Our World TKPL et nous créons des choses vraiment belles et étonnantes.
+                    Profitez
                     de nos services pour développer votre image, acquérir de nouvelles compétences, accroître votre
                     visibilité et propulser votre carrière. Ne manquez pas cette incroyable opportunité !
                 </p>
@@ -188,67 +189,87 @@
                 <div class="col-lg-4 first">
                     <div class="service_vertical_box">
                         <div class="service-icon">
-                            <i class="fa fa-lightbulb-o fa-4x"></i>
+                            <i class="fa fa-bullhorn fa-4x"></i>
                         </div>
-                        <h3>Aweosme Design Layout</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod enim a metus
-                            adipiscing aliquam. </p>
-                        <a href="#" class="readmore">Read More...</a>
+                        <h3>Marketing & Communication</h3>
+                        <p>
+                            Notre équipe vous accompagne pour développer une stratégie marketing personnalisée et
+                            efficace. Grâce à notre expertise, nous créons des solutions adaptées à vos besoins, pour
+                            optimiser votre communication et atteindre vos objectifs avec succès.
+                        </p>
                     </div><!-- end service_vertical_box -->
                 </div><!-- end col-lg-4 -->
                 <div class="col-lg-4">
                     <div class="service_vertical_box">
                         <div class="service-icon">
-                            <i class="fa fa-gear fa-4x"></i>
+                            <i class="fa fa-picture-o fa-4x"></i>
                         </div>
-                        <h3>Drag and Drop Builder</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod enim a metus
-                            adipiscing aliquam. </p>
-                        <a href="#" class="readmore">Read More...</a>
+                        <h3>Design et Multimedias</h3>
+                        <p>
+                            Notre service de design et multimédias vous offre des solutions créatives et innovantes pour
+                            valoriser votre image de marque. Nous vous accompagnons dans la conception graphique, la
+                            création de contenus visuels et multimédias, afin de captiver et engager votre audience.
+                            Faites-nous confiance pour transformer vos idées en œuvres visuelles percutantes et
+                            mémorables.
+                        </p>
                     </div><!-- end service_vertical_box -->
                 </div><!-- end col-lg-4 -->
                 <div class="col-lg-4 last">
                     <div class="service_vertical_box">
                         <div class="service-icon">
-                            <i class="fa fa-tablet fa-4x"></i>
+                            <i class="fa fa-video-camera fa-4x"></i>
                         </div>
-                        <h3>Retina Ready Display</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod enim a metus
-                            adipiscing aliquam. </p>
-                        <a href="#" class="readmore">Read More...</a>
+                        <h3>Couverture Live</h3>
+                        <p>
+                            Notre service de couverture live vous permet de diffuser vos événements en temps réel,
+                            assurant une expérience immersive et interactive pour votre audience. Nous vous accompagnons
+                            à chaque étape, de la planification à la diffusion, pour garantir un streaming de haute
+                            qualité. Faites confiance à notre expertise pour capturer et partager vos moments importants
+                            en direct.
+                        </p>
                     </div><!-- end service_vertical_box -->
                 </div><!-- end col-lg-4 -->
                 <div class="col-lg-4 first">
                     <div class="service_vertical_box">
                         <div class="service-icon">
-                            <i class="fa fa-folder-o fa-4x"></i>
+                            <i class="fa fa-laptop fa-4x"></i>
                         </div>
-                        <h3>Next-level features</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod enim a metus
-                            adipiscing aliquam. </p>
-                        <a href="#" class="readmore">Read More...</a>
+                        <h3>Développement Web & Mobile</h3>
+                        <p>
+                            Notre service de développement web et mobile offre des solutions sur mesure pour créer des
+                            applications performantes et intuitives. Nous vous accompagnons tout au long du processus,
+                            de la conception à la mise en ligne, en passant par le développement et les tests. Faites
+                            confiance à notre expertise pour développer des plateformes adaptées à vos besoins et
+                            accessibles sur tous les appareils.
+                        </p>
                     </div><!-- end service_vertical_box -->
                 </div><!-- end col-lg-4 -->
                 <div class="col-lg-4">
                     <div class="service_vertical_box">
                         <div class="service-icon">
-                            <i class="fa fa-google-plus fa-4x"></i>
+                            <i class="fa fa-bar-chart-o fa-4x"></i>
                         </div>
-                        <h3>Social Media Friendly</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod enim a metus
-                            adipiscing aliquam. </p>
-                        <a href="#" class="readmore">Read More...</a>
+                        <h3>Management & Data Analysis</h3>
+                        <p>
+                            Notre équipe spécialisée en Management et Data Analysis vous offre des solutions avancées
+                            pour transformer vos données en informations stratégiques. Que vous cherchiez à optimiser
+                            vos processus, à prendre des décisions éclairées ou à prévoir les tendances futures, nous
+                            sommes là pour vous accompagner à chaque étape.
+                        </p>
                     </div><!-- end service_vertical_box -->
                 </div><!-- end col-lg-4 -->
                 <div class="col-lg-4 last">
                     <div class="service_vertical_box">
                         <div class="service-icon">
-                            <i class="fa fa-bars fa-4x"></i>
+                            <i class="fa fa-cogs fa-4x"></i>
                         </div>
-                        <h3>Responsive Web Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod enim a metus
-                            adipiscing aliquam. </p>
-                        <a href="#" class="readmore">Read More...</a>
+                        <h3>Formation & Consulting</h3>
+                        <p>
+                            Notre service de Formation & Consulting offre des programmes personnalisés pour développer
+                            vos compétences et optimiser vos stratégies. Que vous recherchiez à renforcer les capacités
+                            de votre équipe ou à améliorer votre efficacité opérationnelle, notre expertise vous guide
+                            vers le succès.
+                        </p>
                     </div><!-- end service_vertical_box -->
                 </div><!-- end col-lg-4 -->
                 <div class="clearfix"></div>
@@ -262,25 +283,37 @@
         <div class="videooverlay">
             <div class="container">
                 <div class="general-title">
-                    <h2>Our Working Process</h2>
+                    <h2>Boostez Votre Carrière</h2>
                     <hr>
-                    <p class="lead">These is the team behind Jollyany Agency</p>
+                    <p class="lead">Améliorez votre carrière avec les formations les plus demandées</p>
                 </div><!-- end general title -->
 
                 <div class="custom-services">
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 first">
                         <div class="ch-item">
                             <div class="ch-info-wrap">
-                                <div class="ch-info">
-                                    <div class="ch-info-front">
-                                        <i class="fa fa-print fa-4x"></i>
-                                        <h3>Print Ready</h3>
-                                    </div>
-                                    <div class="ch-info-back">
-                                        <h3>RESULTS</h3>
-                                        <p>Lorem ipsum dolor sit ameconsectetur adipisicing elit, sed do eiusmod tempor
-                                            incididunt ut labore et dolore magna aliqua. </p>
-                                    </div>
+                                <div class="ch-info" style="display: flex; justify-content: center; align-items: center; height: 100%;">
+                                    <img style="width: 95%!important; object-fit: scale-down" src="{{asset('images/power-bi.png')}}" alt="power-bi-logo">
+                                </div><!-- end ch-info -->
+                            </div><!-- end ch-info-wrap -->
+                        </div><!-- end ch-item -->
+                    </div><!-- end col-sm-3 -->
+
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="ch-item">
+                                <div class="ch-info-wrap">
+                                    <div class="ch-info" style="display: flex; justify-content: center; align-items: center; height: 100%;">
+                                        <img style="height: 95%!important; object-fit: scale-down" src="{{asset('images/pmp.png')}}" alt="pmp-logo">
+                                    </div><!-- end ch-info -->
+                                </div><!-- end ch-info-wrap -->
+                            </div><!-- end ch-item -->
+                        </div><!-- end col-sm-3 -->
+
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="ch-item">
+                            <div class="ch-info-wrap">
+                                <div class="ch-info" style="display: flex; justify-content: center; align-items: center; height: 100%;">
+                                    <img style="height: 95%!important; object-fit: scale-down" src="{{asset('images/MOS_Excel.png')}}" alt="excel-specialist-logo">
                                 </div><!-- end ch-info -->
                             </div><!-- end ch-info-wrap -->
                         </div><!-- end ch-item -->
@@ -289,56 +322,13 @@
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="ch-item">
                             <div class="ch-info-wrap">
-                                <div class="ch-info">
-                                    <div class="ch-info-front">
-                                        <i class="fa fa-lightbulb-o fa-4x"></i>
-                                        <h3>Planning</h3>
-                                    </div>
-                                    <div class="ch-info-back">
-                                        <h3>RESULTS</h3>
-                                        <p>Lorem ipsum dolor sit ameconsectetur adipisicing elit, sed do eiusmod tempor
-                                            incididunt ut labore et dolore magna aliqua. </p>
-                                    </div>
+                                <div class="ch-info" style="display: flex; justify-content: center; align-items: center; height: 100%;">
+                                    <img style="height: 95%!important; object-fit: scale-down" src="{{asset('images/photoshop.png')}}" alt="photoshop-logo">
                                 </div><!-- end ch-info -->
                             </div><!-- end ch-info-wrap -->
                         </div><!-- end ch-item -->
                     </div><!-- end col-sm-3 -->
 
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="ch-item">
-                            <div class="ch-info-wrap">
-                                <div class="ch-info">
-                                    <div class="ch-info-front">
-                                        <i class="fa fa-bar-chart-o fa-4x"></i>
-                                        <h3>Built with care</h3>
-                                    </div>
-                                    <div class="ch-info-back">
-                                        <h3>RESULTS</h3>
-                                        <p>Lorem ipsum dolor sit ameconsectetur adipisicing elit, sed do eiusmod tempor
-                                            incididunt ut labore et dolore magna aliqua. </p>
-                                    </div>
-                                </div><!-- end ch-info -->
-                            </div><!-- end ch-info-wrap -->
-                        </div><!-- end ch-item -->
-                    </div><!-- end col-sm-3 -->
-
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 last">
-                        <div class="ch-item">
-                            <div class="ch-info-wrap">
-                                <div class="ch-info">
-                                    <div class="ch-info-front">
-                                        <i class="fa fa-html5 fa-4x"></i>
-                                        <h3>Clean and Simple</h3>
-                                    </div>
-                                    <div class="ch-info-back">
-                                        <h3>RESULTS</h3>
-                                        <p>Lorem ipsum dolor sit ameconsectetur adipisicing elit, sed do eiusmod tempor
-                                            incididunt ut labore et dolore magna aliqua. </p>
-                                    </div>
-                                </div><!-- end ch-info -->
-                            </div><!-- end ch-info-wrap -->
-                        </div><!-- end ch-item -->
-                    </div><!-- end col-sm-3 -->
                 </div><!-- end row -->
 
             </div><!-- end container -->
@@ -356,10 +346,10 @@
             <div class="text-center clearfix">
                 <nav class="portfolio-filter">
                     <ul>
-                        <li><a class="btn btn-primary" href="#" data-filter="*"><span></span>All</a></li>
-                        <li><a class="btn btn-primary" href="#" data-filter=".photography">Photography</a></li>
-                        <li><a class="btn btn-primary" href="#" data-filter=".app-design">App Design</a></li>
-                        <li><a class="btn btn-primary" href="#" data-filter=".logo">Logo</a></li>
+                        <li><a class="btn btn-primary" href="#" data-filter="*"><span></span>Tous</a></li>
+                        <li><a class="btn btn-primary" href="#" data-filter=".photography">Photographie</a></li>
+                        <li><a class="btn btn-primary" href="#" data-filter=".app-design">Videographie</a></li>
+                        <li><a class="btn btn-primary" href="#" data-filter=".logo">Couverture Live</a></li>
                     </ul>
                 </nav>
             </div><!-- end text-center -->
@@ -367,10 +357,10 @@
 
         <div class="masonry_wrapper">
             <div class="item entry item-h2 item-w2 photography">
-                <a href="portfolio-single-sidebar.html"><img src="demos/portfolio_masonry_01.jpg" alt=""></a>
+                <a href="#"><img src="demos/portfolio_masonry_01.jpg" alt=""></a>
                 <div class="magnifier">
                     <div class="buttons">
-                        <a class="st btn btn-default" rel="bookmark" href="portfolio-single-sidebar.html">View
+                        <a class="st btn btn-default" rel="bookmark" href="#">View
                             project</a>
                         <h3>Best Apple Mockups</h3>
                     </div><!-- end buttons -->
@@ -378,10 +368,10 @@
             </div><!-- end item -->
 
             <div class="item entry item-h2 graphic-design">
-                <a href="portfolio-single-sidebar.html"><img src="demos/portfolio_masonry_02.jpg" alt=""></a>
+                <a href="#"><img src="demos/portfolio_masonry_02.jpg" alt=""></a>
                 <div class="magnifier">
                     <div class="buttons">
-                        <a class="st btn btn-default" rel="bookmark" href="portfolio-single-sidebar.html">View
+                        <a class="st btn btn-default" rel="bookmark" href="#">View
                             project</a>
                         <h3>Best Apple Mockups</h3>
                     </div><!-- end buttons -->
@@ -389,10 +379,10 @@
             </div><!-- end item -->
 
             <div class="item entry item-h2 item-w2 photography logo">
-                <a href="portfolio-single-sidebar.html"><img src="demos/portfolio_masonry_03.jpg" alt=""></a>
+                <a href="#"><img src="demos/portfolio_masonry_03.jpg" alt=""></a>
                 <div class="magnifier">
                     <div class="buttons">
-                        <a class="st btn btn-default" rel="bookmark" href="portfolio-single-sidebar.html">View
+                        <a class="st btn btn-default" rel="bookmark" href="#">View
                             project</a>
                         <h3>Best Apple Mockups</h3>
                     </div><!-- end buttons -->
@@ -400,10 +390,10 @@
             </div><!-- end item -->
 
             <div class="item entry item-h2 app-design">
-                <a href="portfolio-single-sidebar.html"><img src="demos/portfolio_masonry_04.jpg" alt=""></a>
+                <a href="#"><img src="demos/portfolio_masonry_04.jpg" alt=""></a>
                 <div class="magnifier">
                     <div class="buttons">
-                        <a class="st btn btn-default" rel="bookmark" href="portfolio-single-sidebar.html">View
+                        <a class="st btn btn-default" rel="bookmark" href="#">View
                             project</a>
                         <h3>Best Apple Mockups</h3>
                     </div><!-- end buttons -->
@@ -411,10 +401,10 @@
             </div><!-- end item -->
 
             <div class="item entry item-h2 item-w2 app-design logo">
-                <a href="portfolio-single-sidebar.html"><img src="demos/portfolio_masonry_05.jpg" alt=""></a>
+                <a href="#"><img src="demos/portfolio_masonry_05.jpg" alt=""></a>
                 <div class="magnifier">
                     <div class="buttons">
-                        <a class="st btn btn-default" rel="bookmark" href="portfolio-single-sidebar.html">View
+                        <a class="st btn btn-default" rel="bookmark" href="#">View
                             project</a>
                         <h3>Best Apple Mockups</h3>
                     </div><!-- end buttons -->
@@ -422,10 +412,10 @@
             </div><!-- end item -->
 
             <div class="item entry item-h2 app-design">
-                <a href="portfolio-single-sidebar.html"><img src="demos/portfolio_masonry_06.jpg" alt=""></a>
+                <a href="#"><img src="demos/portfolio_masonry_06.jpg" alt=""></a>
                 <div class="magnifier">
                     <div class="buttons">
-                        <a class="st btn btn-default" rel="bookmark" href="portfolio-single-sidebar.html">View
+                        <a class="st btn btn-default" rel="bookmark" href="#">View
                             project</a>
                         <h3>Best Apple Mockups</h3>
                     </div><!-- end buttons -->
@@ -433,10 +423,10 @@
             </div><!-- end item -->
 
             <div class="item entry item-h2 photography">
-                <a href="portfolio-single-sidebar.html"><img src="demos/portfolio_masonry_07.jpg" alt=""></a>
+                <a href="#"><img src="demos/portfolio_masonry_07.jpg" alt=""></a>
                 <div class="magnifier">
                     <div class="buttons">
-                        <a class="st btn btn-default" rel="bookmark" href="portfolio-single-sidebar.html">View
+                        <a class="st btn btn-default" rel="bookmark" href="#">View
                             project</a>
                         <h3>Best Apple Mockups</h3>
                     </div><!-- end buttons -->
