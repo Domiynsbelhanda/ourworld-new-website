@@ -1,21 +1,119 @@
-<div id="copyrights">
-    <div class="container">
-        <div class="col-lg-5 col-md-6 col-sm-12">
-            <div class="copyright-text">
-                <p>Copyright © {{\Carbon\Carbon::parse("2024")->format('Y')}} - Designed by OW TKPL</p>
-            </div><!-- end copyright-text -->
-        </div><!-- end widget -->
-        <div class="col-lg-7 col-md-6 col-sm-12 clearfix">
-            <div class="footer-menu">
-                <ul class="menu">
-                    <li class="active"><a href="#">Accueil</a></li>
-                    <li><a href="#">A Propos</a></li>
-                    <li><a href="#servicess">Nos Services</a></li>
-                    <li><a href="#">Nos Projets</a></li>
-                    <li><a href="#">Notre Equipe</a></li>
-                    <li><a href="#">Nos Contacts</a></li>
-                </ul>
+<!-- footer -->
+<footer class="mil-dark-bg">
+    <div class="mi-invert-fix">
+        <div class="container mil-p-120-60">
+            <div class="row justify-content-between">
+                <div class="col-md-4 col-lg-4 mil-mb-60">
+
+                    <div class="mil-muted mil-logo mil-up mil-mb-30">Our World TKPL</div>
+
+                    <p class="mil-light-soft mil-up mil-mb-30">Souscrire à notre newsletter:</p>
+
+                    <form class="mil-subscribe-form mil-up">
+                        <input type="text" placeholder="Entrez votre adresse mail">
+                        <button type="submit"
+                                class="mil-button mil-icon-button-sm mil-arrow-place"></button>
+                    </form>
+
+                </div>
+                <div class="col-md-7 col-lg-6">
+                    <div class="row justify-content-end">
+                        <div class="col-md-6 col-lg-7">
+
+                            <nav class="mil-footer-menu mil-mb-60">
+                                <ul>
+                                    <li class="mil-up mil-active">
+                                        <a href="{{route('home')}}">Accueil</a>
+                                    </li>
+                                    <li class="mil-up">
+                                        <a href="#">Portfolio</a>
+                                    </li>
+                                    <li class="mil-up">
+                                        <a href="#">Services</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                        </div>
+                        <div class="col-md-6 col-lg-5">
+
+                            <nav class="mil-footer-menu mil-mb-60">
+                                <ul>
+                                    <li class="mil-up">
+                                        <a href="#">Contact</a>
+                                    </li>
+                                    <li class="mil-up">
+                                        <a href="#">Blog</a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div><!-- end large-7 -->
-    </div><!-- end container -->
-</div><!-- end copyrights -->
+
+            <div class="row justify-content-between flex-sm-row-reverse">
+                <div class="col-md-7 col-lg-6">
+
+                    <div class="row justify-content-between">
+
+                        <div class="col-md-6 col-lg-5 mil-mb-60">
+
+                            <h6 class="mil-muted mil-up mil-mb-30">Contact</h6>
+
+                            <p class="mil-light-soft mil-up">
+                                <span
+                                    class="mil-no-wrap">
+                                    <a href="mailito:info@ourworldtkpl.com">info@ourworldtkpl.com</a>
+                                </span>
+                            </p>
+
+                            <p class="mil-light-soft mil-up">
+                                <span
+                                    class="mil-no-wrap">
+                                    <a href="tel:+243 996 852 377">+243 996 852 377</a>
+                                </span>
+                            </p>
+
+                            <p class="mil-light-soft mil-up">
+                                <span
+                                    class="mil-no-wrap">
+                                    <a href="tel:+243 821 457 744">+243 821 457 744</a>
+                                </span>
+                            </p>
+
+                        </div>
+                        <div class="col-md-6 col-lg-5 mil-mb-60">
+
+                            <h6 class="mil-muted mil-up mil-mb-30">Adresse</h6>
+
+                            <p class="mil-light-soft mil-up">
+                                1575, Avenue Mama Yemo, C/ Lubumbashi (Enceinte du Collège IMARA)
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 col-lg-6 mil-mb-60">
+
+                    <div class="mil-vert-between">
+                        <div class="mil-mb-30">
+                            <ul class="mil-social-icons mil-up">
+                                <li><a href="https://web.facebook.com/profile.php?id=100064531795188" target="_blank" class="social-icon"> <i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://x.com/ourworldtkpl" target="_blank" class="social-icon"> <i class="fab fa-x-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/our_world_tkpl/" target="_blank" class="social-icon"> <i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/our-world-tkpl/" target="_blank" class="social-icon"> <i class="fab fa-linkedin-in"></i></a></li>
+
+                            </ul>
+                        </div>
+                        <p class="mil-light-soft mil-up">© Copyright 2025 - Our World TKPL SARL. All Rights Reserved.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer end -->
