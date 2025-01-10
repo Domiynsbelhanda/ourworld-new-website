@@ -45,7 +45,7 @@
     <!-- cursor end -->
 
     <!-- preloader -->
-    @if(Route::currentRouteName() !== 'services.lives')
+    @if(Route::currentRouteName() !== 'services.lives' || Route::currentRouteName() !== 'portfolio.detail')
         <div class="mil-preloader">
             <div class="mil-preloader-animation">
                 <div class="mil-pos-abs mil-animation-1">

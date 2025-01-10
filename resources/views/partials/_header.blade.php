@@ -18,12 +18,7 @@
                                 <a href="{{ url('/') }}">Accueil</a>
                             </li>
                             <li class="mil-has-children {{ Request::is('portfolio*') ? 'mil-active' : '' }}">
-                                <a href="#.">Portfolio</a>
-                                <ul>
-                                    <li><a href="portfolio-1.html">Grid type 1</a></li>
-                                    <li><a href="portfolio-2.html">Grid type 2</a></li>
-                                    <li><a href="portfolio-3.html">Slider</a></li>
-                                </ul>
+                                <a href="{{route('portfolio')}}">Portfolio</a>
                             </li>
                             <li class="mil-has-children {{ Request::is('services*') ? 'mil-active' : '' }}">
                                 <a href="{{route('services')}}">Services</a>
@@ -46,56 +41,41 @@
                             </div>
                         </div>
                         <div class="mil-menu-right">
-                            <div class="row">
-                                <div class="col-lg-8 mil-mb-60">
-
-                                    <h6 class="mil-muted mil-mb-30">Projects</h6>
-
-                                    <ul class="mil-menu-list">
-                                        <li><a href="project-1.html" class="mil-light-soft">Interior design
-                                                studio</a></li>
-                                        <li><a href="project-2.html" class="mil-light-soft">Home Security Camera</a>
-                                        </li>
-                                        <li><a href="project-3.html" class="mil-light-soft">Kemia Honest
-                                                Skincare</a></li>
-                                        <li><a href="project-4.html" class="mil-light-soft">Cascade of Lava</a></li>
-                                        <li><a href="project-5.html" class="mil-light-soft">Air Pro by Molekule</a>
-                                        </li>
-                                        <li><a href="project-6.html" class="mil-light-soft">Tony's Chocolonely</a>
-                                        </li>
-                                    </ul>
-
-                                </div>
-                                <div class="col-lg-4 mil-mb-60">
-
-                                    <h6 class="mil-muted mil-mb-30">Useful links</h6>
-
-                                    <ul class="mil-menu-list">
-                                        <li><a href="#." class="mil-light-soft">Privacy Policy</a></li>
-                                        <li><a href="#." class="mil-light-soft">Terms and conditions</a></li>
-                                        <li><a href="#." class="mil-light-soft">Cookie Policy</a></li>
-                                        <li><a href="#." class="mil-light-soft">Careers</a></li>
-                                    </ul>
-
-                                </div>
-                            </div>
-                            <div class="mil-divider mil-mb-60"></div>
                             <div class="row justify-content-between">
 
-                                <div class="col-lg-4 mil-mb-60">
+                                <div class="col-md-6 col-lg-5 mil-mb-60">
 
-                                    <h6 class="mil-muted mil-mb-30">Canada</h6>
+                                    <h6 class="mil-muted mil-up mil-mb-30">Contact</h6>
 
-                                    <p class="mil-light-soft mil-up">71 South Los Carneros Road, California <span
-                                            class="mil-no-wrap">+51 174 705 812</span></p>
+                                    <p class="mil-light-soft mil-up">
+                                <span
+                                    class="mil-no-wrap">
+                                    <a href="mailito:info@ourworldtkpl.com">info@ourworldtkpl.com</a>
+                                </span>
+                                    </p>
+
+                                    <p class="mil-light-soft mil-up">
+                                <span
+                                    class="mil-no-wrap">
+                                    <a href="tel:+243 996 852 377">+243 996 852 377</a>
+                                </span>
+                                    </p>
+
+                                    <p class="mil-light-soft mil-up">
+                                <span
+                                    class="mil-no-wrap">
+                                    <a href="tel:+243 821 457 744">+243 821 457 744</a>
+                                </span>
+                                    </p>
 
                                 </div>
-                                <div class="col-lg-4 mil-mb-60">
+                                <div class="col-md-6 col-lg-5 mil-mb-60">
 
-                                    <h6 class="mil-muted mil-mb-30">Germany</h6>
+                                    <h6 class="mil-muted mil-up mil-mb-30">Adresse</h6>
 
-                                    <p class="mil-light-soft">Leehove 40, 2678 MC De Lier, Netherlands <span
-                                            class="mil-no-wrap">+31 174 705 811</span></p>
+                                    <p class="mil-light-soft mil-up">
+                                        1575, Avenue Mama Yemo, C/ Lubumbashi (Enceinte du Collège IMARA)
+                                    </p>
 
                                 </div>
                             </div>

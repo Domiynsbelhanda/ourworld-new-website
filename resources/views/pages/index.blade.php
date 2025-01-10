@@ -36,7 +36,7 @@
                                 <span>CE QUE NOUS FAISONS</span>
                             </a>
 
-                            <a href="#" class="mil-link mil-muted mil-arrow-place">
+                            <a href="{{route('portfolio')}}" class="mil-link mil-muted mil-arrow-place">
                                 <span>VOIR NOS REALISATIONS</span>
                             </a>
 

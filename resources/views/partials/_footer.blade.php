@@ -26,7 +26,7 @@
                                         <a href="{{route('home')}}">Accueil</a>
                                     </li>
                                     <li class="mil-up {{ Request::is('portfolio*') ? 'mil-active' : '' }}">
-                                        <a href="#">Portfolio</a>
+                                        <a href="{{route('portfolio')}}">Portfolio</a>
                                     </li>
                                     <li class="mil-up {{ Request::is('services*') ? 'mil-active' : '' }}">
                                         <a href="{{route('services')}}">Services</a>

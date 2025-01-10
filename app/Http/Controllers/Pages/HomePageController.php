@@ -26,4 +26,14 @@ class HomePageController extends Controller
     {
         return view('pages.services.lives');
     }
+
+    public function portfolio(): \Illuminate\Contracts\View\Factory|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\View|\Illuminate\Contracts\Foundation\Application
+    {
+        return view('pages.portfolio');
+    }
+
+    public function detail(): \Illuminate\Contracts\View\Factory|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\View|\Illuminate\Contracts\Foundation\Application
+    {
+        return view('pages.portfolioDetail');
+    }
 }
