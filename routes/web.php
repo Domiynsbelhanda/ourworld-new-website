@@ -4,6 +4,7 @@ use App\Http\Controllers\Pages\HomePageController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomePageController::class, 'index'])->name('home');
+Route::get('contact', [HomePageController::class, 'contact'])->name('contact');
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])

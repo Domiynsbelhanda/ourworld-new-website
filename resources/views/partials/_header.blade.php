@@ -14,15 +14,10 @@
 
                     <nav class="mil-main-menu" id="swupMenu">
                         <ul>
-                            <li class="mil-has-children mil-active">
-                                <a href="#.">Homepage</a>
-                                <ul>
-                                    <li><a href="home-1.html">Landing page</a></li>
-                                    <li><a href="home-2.html">Personal</a></li>
-                                    <li><a href="portfolio-3.html">Portfolio slider</a></li>
-                                </ul>
+                            <li class="mil-has-children {{ Request::is('/') ? 'mil-active' : '' }}">
+                                <a href="{{ url('/') }}">Accueil</a>
                             </li>
-                            <li class="mil-has-children">
+                            <li class="mil-has-children {{ Request::is('portfolio*') ? 'mil-active' : '' }}">
                                 <a href="#.">Portfolio</a>
                                 <ul>
                                     <li><a href="portfolio-1.html">Grid type 1</a></li>
@@ -30,30 +25,19 @@
                                     <li><a href="portfolio-3.html">Slider</a></li>
                                 </ul>
                             </li>
-                            <li class="mil-has-children">
+                            <li class="mil-has-children {{ Request::is('services*') ? 'mil-active' : '' }}">
                                 <a href="#.">Services</a>
                                 <ul>
                                     <li><a href="services.html">Services List</a></li>
                                     <li><a href="service.html">Single service</a></li>
                                 </ul>
                             </li>
-                            <li class="mil-has-children">
-                                <a href="#.">Newsletter</a>
-                                <ul>
-                                    <li><a href="blog.html">Blog List</a></li>
-                                    <li><a href="publication.html">Publication</a></li>
-                                </ul>
-                            </li>
-                            <li class="mil-has-children">
-                                <a href="#.">Other pages</a>
-                                <ul>
-                                    <li><a href="team.html">Team</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="404.html">404</a></li>
-                                </ul>
+                            <li class="mil-has-children {{ Route::currentRouteName() == 'contact' ? 'mil-active' : '' }}">
+                                <a href="{{ route('contact') }}">Contact</a>
                             </li>
                         </ul>
                     </nav>
+
 
                 </div>
                 <div class="col-xl-7">

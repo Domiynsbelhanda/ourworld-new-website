@@ -22,13 +22,13 @@
 
                             <nav class="mil-footer-menu mil-mb-60">
                                 <ul>
-                                    <li class="mil-up mil-active">
+                                    <li class="mil-up {{ Route::currentRouteName() == 'home' ? 'mil-active' : '' }}">
                                         <a href="{{route('home')}}">Accueil</a>
                                     </li>
-                                    <li class="mil-up">
+                                    <li class="mil-up {{ Request::is('portfolio*') ? 'mil-active' : '' }}">
                                         <a href="#">Portfolio</a>
                                     </li>
-                                    <li class="mil-up">
+                                    <li class="mil-up {{ Request::is('services*') ? 'mil-active' : '' }}">
                                         <a href="#">Services</a>
                                     </li>
                                 </ul>
@@ -39,10 +39,10 @@
 
                             <nav class="mil-footer-menu mil-mb-60">
                                 <ul>
-                                    <li class="mil-up">
-                                        <a href="#">Contact</a>
+                                    <li class="mil-up {{ Route::currentRouteName() == 'contact' ? 'mil-active' : '' }}">
+                                        <a href="{{route('contact')}}">Contact</a>
                                     </li>
-                                    <li class="mil-up">
+                                    <li class="mil-up {{ Request::is('blog') ? 'mil-active' : '' }}">
                                         <a href="#">Blog</a>
                                     </li>
                                 </ul>
@@ -51,6 +51,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
 
             <div class="row justify-content-between flex-sm-row-reverse">
