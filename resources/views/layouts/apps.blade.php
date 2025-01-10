@@ -45,22 +45,25 @@
     <!-- cursor end -->
 
     <!-- preloader -->
-    <div class="mil-preloader">
-        <div class="mil-preloader-animation">
-            <div class="mil-pos-abs mil-animation-1">
-                <p class="mil-h3 mil-muted mil-thin">illume</p>
-                <p class="mil-h3 mil-muted">ton</p>
-                <p class="mil-h3 mil-muted mil-thin">monde</p>
-            </div>
-            <div class="mil-pos-abs mil-animation-2">
-                <div class="mil-reveal-frame">
-                    <p class="mil-reveal-box"></p>
-                    <p class="mil-h3 mil-muted mil-thin">Our World TKPL</p>
+    @if(Route::currentRouteName() !== 'services.lives')
+        <div class="mil-preloader">
+            <div class="mil-preloader-animation">
+                <div class="mil-pos-abs mil-animation-1">
+                    <p class="mil-h3 mil-muted mil-thin">illume</p>
+                    <p class="mil-h3 mil-muted">ton</p>
+                    <p class="mil-h3 mil-muted mil-thin">monde</p>
+                </div>
+                <div class="mil-pos-abs mil-animation-2">
+                    <div class="mil-reveal-frame">
+                        <p class="mil-reveal-box"></p>
+                        <p class="mil-h3 mil-muted mil-thin">Our World TKPL</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    @endif
     <!-- preloader end -->
+
 
     <!-- scrollbar progress -->
     <div class="mil-progress-track">

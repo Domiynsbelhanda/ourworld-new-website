@@ -29,7 +29,7 @@
                                         <a href="#">Portfolio</a>
                                     </li>
                                     <li class="mil-up {{ Request::is('services*') ? 'mil-active' : '' }}">
-                                        <a href="#">Services</a>
+                                        <a href="{{route('services')}}">Services</a>
                                     </li>
                                 </ul>
                             </nav>

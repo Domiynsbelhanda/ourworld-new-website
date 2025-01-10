@@ -16,4 +16,14 @@ class HomePageController extends Controller
     {
         return view('pages.contact');
     }
+
+    public function services(): \Illuminate\Contracts\View\Factory|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\View|\Illuminate\Contracts\Foundation\Application
+    {
+        return view('pages.services.index');
+    }
+
+    public function lives(): \Illuminate\Contracts\View\Factory|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\View|\Illuminate\Contracts\Foundation\Application
+    {
+        return view('pages.services.lives');
+    }
 }

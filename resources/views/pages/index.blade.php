@@ -32,7 +32,7 @@
                                 </div>
                             </div>
 
-                            <a href="#" class="mil-button mil-arrow-place mil-btn-space">
+                            <a href="{{route('services')}}" class="mil-button mil-arrow-place mil-btn-space">
                                 <span>CE QUE NOUS FAISONS</span>
                             </a>
 
@@ -137,7 +137,7 @@
 
                                 <h2 class="mil-h1 mil-muted mil-center">Pour <span class="mil-thin">vous.</span>
                                 </h2>
-                                <a href="#" class="mil-services-button mil-button mil-arrow-place"><span>CE QUE NOUS FAISONS</span></a>
+                                <a href="{{route('services')}}" class="mil-services-button mil-button mil-arrow-place"><span>CE QUE NOUS FAISONS</span></a>
 
                             </div>
                         </div>
@@ -176,7 +176,7 @@
                             <div class="col-md-6 col-lg-3 mil-services-grid-item p-0">
 
                                 <a href="#" class="mil-service-card-sm mil-up">
-                                    <h5 class="mil-muted mil-mb-30">Production LIVE <br>et Multimédias</h5>
+                                    <h5 class="mil-muted mil-mb-30">Production LIVE <br>et AudioVisuelle</h5>
                                     <p class="mil-light-soft mil-mb-30">Notre agence créative est une équipe de professionnels
                                         dédiée à faire croître votre marque.</p>
                                     <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>

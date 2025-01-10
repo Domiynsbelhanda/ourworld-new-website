@@ -26,11 +26,7 @@
                                 </ul>
                             </li>
                             <li class="mil-has-children {{ Request::is('services*') ? 'mil-active' : '' }}">
-                                <a href="#.">Services</a>
-                                <ul>
-                                    <li><a href="services.html">Services List</a></li>
-                                    <li><a href="service.html">Single service</a></li>
-                                </ul>
+                                <a href="{{route('services')}}">Services</a>
                             </li>
                             <li class="mil-has-children {{ Route::currentRouteName() == 'contact' ? 'mil-active' : '' }}">
                                 <a href="{{ route('contact') }}">Contact</a>
